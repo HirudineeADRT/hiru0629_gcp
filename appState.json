@@ -1,0 +1,132 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "64939a1a-895c-49e2-880c-90e0f560c047": {
+        "id": "64939a1a-895c-49e2-880c-90e0f560c047",
+        "parent": null,
+        "name": "tt.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "tt.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "tt"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1624944778895
+      },
+      "99603432-5c1a-4652-8720-c6cc05339e15": {
+        "id": "99603432-5c1a-4652-8720-c6cc05339e15",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "72a9d8a4-2748-43aa-82a8-9474e788bdd1": {
+        "id": "72a9d8a4-2748-43aa-82a8-9474e788bdd1",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "2d4bace4-f1a1-4bb7-84a1-a3ea1d9c362c": {
+        "id": "2d4bace4-f1a1-4bb7-84a1-a3ea1d9c362c",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "9c849d8b-132f-4746-b5bf-5930c0ee9361": {
+        "id": "9c849d8b-132f-4746-b5bf-5930c0ee9361",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "64939a1a-895c-49e2-880c-90e0f560c047"
+    ],
+    "currentFileId": "64939a1a-895c-49e2-880c-90e0f560c047",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "storagehiiinduuu": {
+        "name": "storagehiiinduuu",
+        "type": "CloudStorage",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "hiiinduuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.1",
+    "projectName": "tt",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1624959135171
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0629_gcp",
+      "url": "https://github.com/HirudineeADRT/hiru0629_gcp"
+    }
+  }
+}
